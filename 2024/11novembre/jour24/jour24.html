@@ -1,0 +1,53 @@
+<div class='container'>
+    <div class='it1'></div>
+    <div class='it2'></div>
+    <div class='it3'></div>
+    <div class='it4'></div>
+    <div class='it5'></div>
+  </div>
+  
+  <style>
+    body{
+      background:#328FC1;
+      margin: 0;
+    }
+    div {
+      width: 100px;
+      height: 20px;
+      background: #EEB850;
+    }
+    .it1{
+      grid-area: a;
+    }
+    .it2{
+      grid-area: b;
+    }
+    .it3{
+      grid-area: c;
+      height: 20px;
+    }
+    .it4{
+      grid-area: d;
+    }
+    .it5{
+      grid-area: e;
+    }
+    .container {
+      display: grid;
+      padding: 0px 14px 0px 14px;
+      place-items: center;
+      grid-template-areas: 
+              "a . b"
+              ". c ."
+              "d . e";
+      grid-template-rows:  repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      position: absolute;
+      top: 50%;
+      transform: translate(0%, -50%);
+      width: 372px;
+      height: 65px;
+      background: transparent;
+    }
+  </style>
+  
