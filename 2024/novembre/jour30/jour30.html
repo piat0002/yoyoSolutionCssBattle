@@ -1,0 +1,49 @@
+<div class='parallelogramme1'></div>
+<div class='parallelogramme2'></div>
+<div class='barre'></div>
+<div class='barre2'></div>
+<style>
+  .barre{
+    top:125px;
+    z-index: 4;
+  }
+  .barre2{
+    top:135px;
+    z-index: 3;
+    background:#F3EAD2;
+  }
+  body{
+    background:#F3EAD2;
+    margin:0px;
+  }
+  .parallelogramme1{
+    z-index: 2;
+    background:#8F3F4A;
+    top:80px;
+    left:149px;
+  	width:42px;
+  	height:140px;
+  	-webkit-transform:skew(20deg);
+  	-moz-transform:skew(20deg);
+  	-o-transform:skew(20deg);
+  	tranform:skew(20deg);
+  }
+  .parallelogramme2{
+    z-index: 1;
+    background:#D96C7B;
+    top:80px;
+    left:208px;
+  	width:42px;
+  	height:140px;
+  	-webkit-transform:skew(-20deg);
+  	-moz-transform:skew(-20deg);
+  	-o-transform:skew(-20deg);
+  	tranform:skew(-20deg);
+  }
+  div {
+    background:#8F3F4A;
+    position:absolute;
+    width: 400px;
+    height: 20px;
+  }
+</style>
