@@ -1,0 +1,82 @@
+<div class="cont1"></div>
+<div class="contHaut">
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+</div>
+<div class="contDroite">
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+</div>
+<div class="contBas">
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+</div>
+<div class="contGauche">
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+  <div class="orange"></div>
+</div>
+<style>
+  .cont1{
+    top:57;
+    left:107px;
+    width: 152px;
+    height: 152px;
+    border: solid 14px #67645E;
+    border-radius:20px;
+  }
+  .orange{
+    width: 14px;
+    height: 20px;
+    background:#E88933;
+    border-radius: 45% 45% 0% 0%;
+  }
+  body{
+    background:#FFF6D2;
+  }
+  .contGauche{
+    display:flex;
+    justify-content: space-between;
+    top:137px;
+    left:30px;
+    transform: rotate(270deg);
+  }
+  .contBas{
+    display:flex;
+    justify-content: space-between;
+    bottom:37px;
+    right:130px;
+    transform: rotate(180deg);
+  }
+  .contDroite{
+    display:flex;
+    justify-content: space-between;
+    bottom:137px;
+    right:30px;
+    transform: rotate(90deg);
+  }
+  .contHaut{
+    display:flex;
+    justify-content: space-between;
+    top:37px;
+    left:130px;
+  }
+  body>* {
+    position:absolute;
+    width: 134px;
+    height: 20px;
+    margin:3;
+
+  }
+</style>
