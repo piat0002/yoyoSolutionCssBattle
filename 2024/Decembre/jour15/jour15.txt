@@ -1,0 +1,20 @@
+<div></div>
+<div class="scercle"></div>
+<style>
+  *{background:#F0F0F0}
+  .scercle{
+    left:225;
+    border-radius:100px 0 0 100px;
+    width: 70px;
+    height: 140px;
+    border-width: 30px 0 30px 30px;
+  }
+  div {
+    top:50px;
+    left:75;
+    position:absolute;
+    width: 190px;
+    height: 140px;
+    border: solid #E05947 30px;
+  }
+</style>
