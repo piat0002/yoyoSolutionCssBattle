@@ -1,0 +1,27 @@
+<div class="pose"></div>
+<div class="barre"></div>
+<div class="cercle"></div>
+<style>
+  .cercle{
+    left:130px;
+    top:80;
+    width: 80px;
+    height: 80px;
+    border:solid 30px #FADE8B;
+    border-radius:100%;
+  }
+  .pose{left:150px;top:190;}
+  .barre{
+    left:75px;
+    top:220;
+    width: 250px;
+    height: 30px;
+  }
+  *{background:#FADE8B;}
+  div {
+    position:absolute;
+    width: 100px;
+    height: 50px;
+    background: #222222;
+  }
+</style>
