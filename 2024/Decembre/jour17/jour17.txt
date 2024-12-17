@@ -1,0 +1,33 @@
+<div class="p4"></div>
+<div class="p3"></div>
+<div class="p2"></div>
+<div class="p1"></div>
+<style>
+  *{background:#588A95;}
+  .p1{
+    height:12px;
+    width:12px;
+  }
+  .p2{
+    height:60px;
+    width:60px;
+  }
+  .p3{
+    height:108px;
+    width:108px;
+  }
+  .p4{
+    height:156px;
+    width:156px;
+  }
+  div {
+    background:;
+    border-width:24px !important;
+    border:solid #ffffff;
+    border-bottom:0;
+    border-right:0;
+    position:absolute;
+    right:110px;
+    bottom:60px;
+  }
+</style>
