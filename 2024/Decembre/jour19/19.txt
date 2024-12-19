@@ -1,0 +1,33 @@
+
+<div class="cont">
+  <div></div>
+  <div class="rose"></div>
+  <div></div>
+  <div class="rose"></div>
+  <div class="rose"></div>
+  <div class="rose"></div>
+  <div></div>
+  <div class="rose"></div>
+  <div></div>
+</div>
+<style>
+  .rose{background: #CF81AF;}
+  *{background:#35312F}
+  .cont{
+    position:absolute;
+    display:grid;
+    top:70px;
+    left:120px;
+    width: 160px;
+    height: 160px;
+    grid-row: 2;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  div {
+    width: 40px;
+    height: 40px;
+  }
+</style>
