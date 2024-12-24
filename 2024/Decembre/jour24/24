@@ -1,0 +1,47 @@
+<div class="cercle"></div>
+<div class="mid gauche"></div>
+<div class="mid droite"></div>
+<div class="midl haut"></div>
+<div class="midl bas"></div>
+<style>
+  *{
+    background:#6D62BA;
+  }
+  .midl{
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .mid{
+    width: 30px;
+    height: 90px;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .gauche{
+    left:95px;
+  }
+  .droite{
+    right:95px;
+  }
+  .haut{
+    top:45px;
+  }
+  .bas{
+    bottom:45px; 
+  }
+  .cercle{
+    width: 90px;
+    height: 90px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border-radius:100%;
+  }
+  
+  div {
+    position:absolute;
+    width: 90px;
+    height: 30px;
+    background: #A1E6E4;
+  }
+</style>
