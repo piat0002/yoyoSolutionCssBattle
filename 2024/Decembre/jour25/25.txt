@@ -1,0 +1,36 @@
+<div class="t"></div>
+<div class="b"></div>
+<div class="l"></div>
+<div class="r"></div>
+<style>
+  .t{
+    top:15px;
+    left:165px;
+    transform: rotate(90deg);
+  }
+  .b{
+    bottom:15px;
+    left:165px;
+    transform: rotate(90deg);
+  }
+  .l{
+    top:50%;
+    left:75px;
+    transform: translateY(-50%);
+  }
+  .r{
+    top:50%;
+    left:255px;
+    transform: translateY(-50%);
+  }
+  *{
+      background: #D96C7B;
+  }  
+  div {
+    position:absolute;
+    border-right:30px solid #fff;
+    border-left:30px solid #fff;
+    width: 10px;
+    height: 90px;
+  }
+</style>
