@@ -1,0 +1,29 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<style>
+  .a{
+    top:50px;
+    left:100px;
+  }
+  .b{
+    top:135px;
+    left:185px;
+    transform:rotate(90deg);
+  }
+  .c{
+    top:85;
+    left:162;
+    height: 180px;
+    transform:rotate(135deg);
+  }
+  *{
+    background:#5393BD;
+  }
+  div {
+    position:absolute;
+    width: 30px;
+    height: 200px;
+    background: #FAE29E;
+  }
+</style>
