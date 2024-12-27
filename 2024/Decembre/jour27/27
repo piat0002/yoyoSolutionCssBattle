@@ -1,0 +1,27 @@
+<div></div>
+<div class="a"></div>
+<style>
+  *{
+    margin:0;
+    background:#61A74E;
+  }
+  div {
+    position:absolute;
+    border:solid 40px #EFF8FE;
+    background:transparent;
+  }
+div:first-child {
+    width: 500px;
+    height: 80px;
+    border-left-width:0;
+    top:70;
+  }
+.a {
+    width: 80px;
+    height: 240px;
+    border-top-width:0;
+    border-bottom-width:0;
+    top:30;
+    left:120;
+  }
+</style>
