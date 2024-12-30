@@ -1,0 +1,27 @@
+<div></div>
+<div class="shadow"></div>
+<div class="transparent-border-background"></div>
+<style>
+  *{
+    background:#3F4869;
+  }
+  .shadow{
+    background:#3F4869;
+    border:30px solid #978963;
+    transform:translate(-103%,-50%);
+  }
+  .transparent-border-background{
+    background:transparent;
+    border:200px solid #3F4869;
+  }
+  div {
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    width: 130px;
+    height: 130px;
+    background: #EFCB5C;
+    border-radius:100%;
+  }
+</style>
