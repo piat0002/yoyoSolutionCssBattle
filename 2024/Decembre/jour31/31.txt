@@ -1,0 +1,18 @@
+<div></div>
+<div class="b"></div>
+<style>
+  *{
+    background:#328FC1;
+    margin:0;
+  }
+  .b{
+   right:0; 
+  }
+  div {
+    position:absolute;
+    width: 150px;
+    height: 275px;
+    background: #FADE8B;
+    border-radius:0 0 150px 150px;
+  }
+</style>
