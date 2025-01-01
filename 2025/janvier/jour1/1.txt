@@ -1,0 +1,43 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<div class="blanc"></div>
+<style>
+  *{
+    background:#3F9461;
+  }
+  .a{
+    height:70px;
+    border-top-width:0;
+  }
+  .b{
+    height:70px;
+    top:130px;
+    border-bottom-width:0;
+  }
+  .c{
+    left:120px;
+    border-bottom-width:0;
+  }
+  .d {
+    left:200px;
+    border-top-width:0;
+  }
+  .blanc{
+    top:130px;
+    width:40px;
+    height:40px;
+    background:#FFFFFF;
+    left:320px;
+    border:40px;
+  }
+  div {
+    top:60px;
+    left:40px;
+    position:absolute;
+    border:solid 40px #FFFFFF;
+    width: 40px;
+    height: 140px;
+  }
+</style>
