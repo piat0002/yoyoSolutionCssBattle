@@ -1,0 +1,56 @@
+<div class="grand mid"></div>
+<div class="grand gauche"></div>
+<div class="grand droite"></div>
+<div class="petit haut g2"></div>
+<div class="petit haut d2"></div>
+<div class="petit bas g2"></div>
+<div class="petit bas d2"></div>
+<style>
+  .bas{
+    bottom:45px;
+  }
+  .d2{
+    left:155px;
+  }
+  .haut{
+    top:45px;
+  }
+  .g2{
+    left:35px;
+  }
+  .petit{
+    width:30px;
+    height:30px;
+    border:#F5BB60 solid 90px;
+    border-top-width:0;
+    border-bottom-width:0;
+  }
+  .grand{
+    border:#F5BB60 solid 30px;
+    width:30px;
+    height:90px;
+    border-top-width:0;
+    border-bottom-width:0;
+  }
+  .mid{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .gauche{
+    top:50%;
+    left:35px;
+    transform:translateY(-50%);
+  }
+  .droite{
+    top:50%;
+    left:275px;
+    transform:translateY(-50%);
+  }
+  *{
+    background:#2F5A76;
+  }
+  div {
+    position:absolute;
+  }
+</style>
