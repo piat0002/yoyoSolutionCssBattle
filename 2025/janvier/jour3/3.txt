@@ -1,0 +1,49 @@
+<div class="barre"></div>
+<div class="half-circle"></div>
+<div class="half-circler2"></div>
+<style>
+  .barre{
+    top:120px;
+    left:80px;
+    width: 160px;
+    height: 60px;
+    background:#469DBA;
+  }
+  body{
+    background:#F5E3B5;
+  }
+  div{
+    position:absolute;
+  }
+  .half-circle {
+    top:120px;
+    left:200px;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-top-left-radius: 200px;
+    border: 60px solid #469DBA;
+    border-right: 0;
+    border-bottom: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.half-circler2{
+    top:60px;
+    left:200px;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-top-left-radius: 200px;
+    border: 60px solid #469DBA;
+    border-right: 0;
+    border-bottom: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transform:rotate(270deg);
+}
+</style>
