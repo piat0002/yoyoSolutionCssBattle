@@ -1,0 +1,23 @@
+<div class="cadre"></div>
+<div class="barre"></div>
+<style>
+  *{
+    background:#2F5A76;
+  }
+  .cadre{
+    width:120px;
+    height:190px;
+    border:20px solid #F3AC3C;
+  }
+  .barre{
+    width:360px;
+    height:60px;
+    background:#F3AC3C;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+</style>
