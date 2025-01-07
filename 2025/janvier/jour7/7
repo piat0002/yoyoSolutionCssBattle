@@ -1,0 +1,37 @@
+<div class="noir g"><div></div></div>
+<div class="jaune m"><div></div></div>
+<div class="noir d"><div></div></div>
+<style>
+  *{
+    background:#4A9A86;
+  }
+  div{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+  }
+  .noir {
+
+    background: #4C4C6B;
+  }
+  .noir div {
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    background: #FAE29E;
+    top:50%;left:50%;transform:translate(-50%,-50%);
+  }
+  .jaune {
+    background: #FAE29E;
+  }
+  .jaune div {
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    background: #4C4C6B;
+    top:50%;left:50%;transform:translate(-50%,-50%);
+  }
+  .m{top:50%;left:50%;transform:translate(-50%,-50%);}
+  .g{top:50%;left:60px;transform:translateY(-50%);}
+  .d{top:50%;left:260px;transform:translateY(-50%);}
+</style>
