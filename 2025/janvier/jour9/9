@@ -1,0 +1,41 @@
+<div class="half-circle"></div>
+<div class="barre"></div>
+<div class="cercle b"></div>
+<div class="cercle t"></div>
+<style>
+  .cercle{
+    border: 40px solid #61A74E;
+    border-radius: 100%;
+  }
+  .b{top:165;left:65;}
+  .t{top:15;left:215;}
+  *{background:#FADE8B;}
+  div {
+    position:absolute;
+    background: ##61A74E;
+    width: 40px;
+    height: 40px;
+  }
+  .barre {
+    width: 40px;
+    height: 160px;
+    left:105;
+    top:15;
+    background:#61A74E;
+  }
+  .half-circle {
+    bottom:53;
+    right:103;
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border-bottom-right-radius: 100%;
+    border: 40px solid #61A74E;
+    border-left: 0;
+    border-top: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+</style>
