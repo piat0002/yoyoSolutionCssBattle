@@ -1,0 +1,35 @@
+<div class="circle"></div>
+<div class="circle2"></div>
+<div class="rect"></div>
+<style>
+  *{
+    background:#2F5A76;
+  }
+  div {
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    left:141px;
+  }
+  .rect{
+    width: 50px;
+    height: 120px;
+    top:90px;
+  }
+  .circle {
+    border-radius: 100%;
+    border: 30px solid #7EA6DD;
+    border-left: 30px solid #2F5A76;
+    transform: rotate(-45deg);
+    bottom:141px;
+}
+  .circle2 {
+      top:141px;
+      border-radius: 100%;
+      border: 30px solid #7EA6DD;
+      border-top: 30px solid #2F5A76;
+      transform: rotate(-45deg);
+}
+
+
+</style>
