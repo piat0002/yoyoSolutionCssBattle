@@ -1,0 +1,61 @@
+<div class="cont">
+  <div class="t1 a"></div>
+  <div class="t2 a"></div>
+  <div class="t3 b"></div>
+  <div class="mid"></div>
+  <div class="b3 b"></div>
+  <div class="b2 a"></div>
+  <div class="b1 a"></div>
+</div>
+<style>
+  .mid{
+    left:89px;
+    top:80px;
+    width:162px;
+    height:80px;
+  }
+  .a{
+    width:86px;
+    height:40px;
+  }
+  .b{
+    width:141px;
+    height:80px;
+  }
+  .t1{
+    left:21px;
+  }
+  .t2{
+    left:34px;
+    top:40px;
+  }
+  .t3{
+    left:55px;
+    top:40px;
+  }
+  .b3{
+    right:55px;
+    bottom:40px;
+  }
+  .b2{
+    right:34px;
+    bottom:40px;
+  }
+  .b1{
+    right:21px;
+    bottom:0;
+  }
+  .cont{
+    height:240px;
+    width:340px;
+    top:30px;
+    left:30px;
+    background:#EED9D9;
+  }
+  *{
+    background: #668884;
+  }
+  div {
+    position:absolute;
+  }
+</style>
