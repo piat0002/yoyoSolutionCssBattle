@@ -1,0 +1,37 @@
+<div class="cont-triangles"><div></div><div></div></div>
+<div class="barre"></div>
+<style>
+  .cont-triangles{
+    display:flex;
+    position:absolute;
+    left:50%;
+    top:100px;
+    transform:translate(-50%);
+
+  }
+    .barre{
+    display:flex;
+    position:absolute;
+    left:50%;
+    top:210px;
+    transform:translate(-50%);
+    height: 20px;
+  }
+  .cont-triangles *{
+   width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 43px 30.5px 0 30px;
+   border-color: #DE817E transparent transparent transparent;
+
+  }
+  body{
+    background:#DE817E
+  }
+  div {
+
+    width: 120px;
+    height: 100px;
+    background: #EBE77E;
+  }
+</style>
