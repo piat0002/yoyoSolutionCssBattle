@@ -1,0 +1,33 @@
+<div class="barre t"></div>
+<div class="trapezoid"></div>
+<div class="trapezoid2"></div>
+<div class="barre b"></div>
+<style>
+  body{background:#E0E7FF;}
+  .t{top:0;}
+  .b{bottom:0;}
+  .barre{
+    width: 30px;
+    height: 75px;
+  }
+.trapezoid {
+  top:105;
+  --p: 30px;
+  clip-path: polygon(var(--p) 0,calc(100% - var(--p)) 0,100% 100%,0 100%);
+
+}
+  .trapezoid2 {
+  bottom:105;
+  --p: 30px;
+
+  clip-path: polygon(var(--p) 100%,calc(100% - var(--p)) 100%,100% 0,0 0);
+}
+  div {
+    position:absolute;
+    width: 182px;
+    background: #4F77FF;
+    left:50%;
+    height: 30px;
+    transform:translate(-50%);
+  }
+</style>
