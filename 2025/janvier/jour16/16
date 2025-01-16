@@ -1,0 +1,20 @@
+<div class="a"></div>
+<div></div>
+<style>
+  body{
+    background:#8F77DA;
+  }
+  div {
+    position:absolute;
+    width: 70px;
+    height: 300px;
+    background: #A1E6E4;
+    transform:rotate(35deg);
+    left:157;
+    top:-47px;
+  }
+  .a{ 
+    transform:rotate(-35deg);
+    left:174;
+  }
+</style>
