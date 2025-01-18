@@ -1,0 +1,42 @@
+<div class="cont1">
+  <div class="cercle"></div>
+  <div class="half-circle"></div>
+</div>
+<div class="cont2">
+  <div class="cercle"></div>
+  <div class="half-circle"></div>
+</div>
+<style>
+  div {
+    position:absolute;
+    background: #FFFFFF;
+  }
+  .cont1{
+    left:80;
+    top:60;
+  }
+  .cont2{
+    left:200;
+    top:60;
+  }
+  .cercle{
+    width: 40px;
+    height: 40px;
+    border: 40px solid #328FC1;
+    border-radius:100%;
+  }
+    .half-circle {
+    width: 120px;
+    height: 120px;
+    top:60;
+    background-color: transparent;
+    border-bottom-right-radius: 100%;
+    border: 40px solid #328FC1;
+    border-left: 0;
+    border-top: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+</style>
