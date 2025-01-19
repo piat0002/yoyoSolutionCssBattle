@@ -1,0 +1,27 @@
+<div class="c"></div>
+<div class="center"></div>
+<div class="c b"></div>
+<style>
+  body{
+    margin:0;
+    background:#328FC1;
+  }
+  .c{
+    border-radius:100%;
+  }
+  .b{
+    left:100%;
+    top:100%;
+  }
+  .center{
+    top:50%;
+    left:50%;
+  }
+  div {
+    position:absolute;
+    width: 140px;
+    height: 140px;
+    background: #FADE8B;
+    transform:translate(-50%,-50%);
+  }
+</style>
