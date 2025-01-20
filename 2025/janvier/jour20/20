@@ -1,0 +1,32 @@
+<div class="a top"></div>
+<div class="b mid"></div>
+<div class="a bot"></div>
+<style>
+  *{
+    background:#594C94;
+  }
+  div {
+    left:90px;
+    position:absolute;
+    border:solid 50px #F9DDC6;
+    width: 194px;
+    height: 26px;
+  }
+  .a{
+    border-left-width:0;
+    border-right-width:26px;
+  }
+  .b{
+    border-right-width:0;
+    border-left-width:26px;
+  }
+  .top{
+    top:11px;
+  }
+  .mid{
+    top:87px;
+  }
+  .bot{
+    top:163px;
+  }
+</style>
