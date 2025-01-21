@@ -1,0 +1,27 @@
+<div class="rectangle"></div>
+<div class="carre"></div>
+<style>
+  body{
+    background:#2F5A76;
+  }
+  .rectangle{
+    width:384;
+    height:140;
+    background:#BFE33A;
+    transform:translateY(-50%);
+  }
+  .carre{
+    width:70;
+    height:70;
+    left:125;
+    top:75;
+    background:transparent;
+    border:40px #2F5A76 solid;
+    transform:rotate(45deg); 
+  }
+  div {
+    position:absolute;
+    left:8;
+    top:50%;
+  }
+</style>
