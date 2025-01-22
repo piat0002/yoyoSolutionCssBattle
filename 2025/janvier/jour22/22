@@ -1,0 +1,31 @@
+<div class="top"></div>
+<div class="bot"></div>
+<div class="mid"></div>
+<style>
+  * {
+    background:#DE6B67;
+  }
+  div {
+    position:absolute;
+    border: 13px solid #EDDF5A;
+  }
+  .top {
+    left:187px;
+    top:20px;
+    height:80px;
+  }
+  .mid {
+    left:160px;
+    top:94px;
+    border-width:26px;
+    border-top-width:56px;
+    border-bottom-width:0;
+    width:28px;
+    height:90px;
+  }
+  .bot {
+    width:400px;
+    left:0;
+    top:214;
+  }
+</style>
