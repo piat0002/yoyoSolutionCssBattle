@@ -1,0 +1,25 @@
+<div class="border gros"></div>
+<div class="border grand"></div>
+<div></div>
+<style>
+  *{background:#A1E6E4;}
+  .border {
+    border: 30px solid #2F5A76;
+    background:transparent;
+  }
+  .gros {
+    height: 80px;
+  }
+  .grand {
+    width: 180px;
+    height: 140px;
+  }
+  div {
+    position:absolute;
+    width: 240px;
+    height: 30px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+</style>
