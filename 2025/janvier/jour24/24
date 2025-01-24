@@ -1,0 +1,36 @@
+<div  class="clair"></div>
+<div  class="sombre"></div>
+<div class="cercle gauche"></div>
+<div class="cercle droite"></div>
+<style>
+  .clair {
+    top:0;
+    left:140px;
+    background:#328FC1;
+  }
+  .sombre{
+    left:140px;
+    background:#2D3464;
+  }
+  .gauche{
+    right:-90;
+  }
+  .droite{
+    left:-90;
+  }
+  .cercle{
+    width: 180px;
+    height: 180px;
+    background:transparent;
+    border:250px solid #E0E7FF;
+    border-radius:100%;
+    transform:translateY(-50%);
+  }
+  
+  div {
+    position:absolute;
+    top:50%;
+    width: 200px;
+    height: 2000px;
+  }
+</style>
