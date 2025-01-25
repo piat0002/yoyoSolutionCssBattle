@@ -1,0 +1,31 @@
+<div class="cercle top"></div>
+<div class="barre"></div>
+<div class="cercle bot"></div>
+<style>
+  body {
+    background:#EA9A52;
+    margin:0;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+  }
+  .barre {
+    background:#FFFFFF;
+    width:30px;
+    height:300px;
+  }
+  .cercle {
+    border:30px #435998 solid;
+    border-radius:100%;
+    width:250px;
+    height:250px;
+  }
+  .top {
+    top:-130px;
+  }
+  .bot {
+    top:120;
+  }
+</style>
