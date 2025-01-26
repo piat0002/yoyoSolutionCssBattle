@@ -1,0 +1,42 @@
+<div class="droite"></div>
+<div class="gauche"></div>
+<div class="barre wid"></div>
+<div class="barre heig"></div>
+<style>
+  *{
+    background:#AC342E;
+  }
+  div {
+    position:absolute;
+    width: 120px;
+    height: 120px;
+    border:#FFFFFF solid;
+    border-width: 30px 0px 30px 0px;
+  }
+  .wid {
+    height:0;
+    width:130;
+  }
+  .heig {
+    width:0;
+    height:400px;
+  }
+  .barre {
+    border:#FFFFFF solid;
+    border-width: 0px 30px 30px 0px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .gauche {
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .droite {
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+  }
+
+</style>
