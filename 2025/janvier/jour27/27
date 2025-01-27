@@ -1,0 +1,24 @@
+<div></div>
+<div class="petit"></div>
+<div></div>
+<div class="petit"></div>
+<div></div>
+<style>
+  body {
+    background:#469DBA;
+    margin:15px;
+  }
+  .petit {
+    width: 160px;
+  }
+  div {
+    position:relative;
+    width: 280px;
+    height: 30px;
+    margin-bottom:30px;
+    border:solid #F5E3B5;
+    border-width:0px 200px;
+    left:50%;
+    transform:translateX(-50%);
+  }
+</style>
