@@ -1,0 +1,35 @@
+<div class="barreBleau"></div>
+<div class="barreJaune"></div>
+<div class="transparent-border"></div>
+<style>
+  .barreBleau {
+    left:50%;
+    transform:translate(-59px);
+    height: 400px;
+  }
+  .barreJaune {
+    top:50%;
+    transform:translateY(-50%);
+    width: 400px;
+    background: #FADE8B;
+  }
+  .transparent-border {
+    top:50%;
+    left:130px;
+    transform:translateY(-50%);
+    border:solid #2D3464;
+    background:transparent;
+    border-width:0 70px 0 70px;
+    width: 130px;
+  }
+  body {
+    background:#D08825;
+    margin:0;
+  }
+  div {
+    position:absolute;
+    width: 118px;
+    height: 130px;
+    background: #2D3464;
+  }
+</style>
