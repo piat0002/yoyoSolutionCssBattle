@@ -1,0 +1,41 @@
+<div class="barre"></div>
+<div class="demi-cercle c"></div>
+<div class="cercle c"></ div>
+<style>
+  .barre {
+    background:#61A74E;
+    
+  }
+  body{
+    margin:0;
+    background:#FADE8B;
+  }
+  .c {
+    left:50%;
+    
+  }
+  .cercle{
+    transform:translate(-50%,-50%);
+    width: 80px;
+    height: 80px;
+    border-radius:100%;
+  }
+
+  .demi-cercle {
+      width: 160px;
+      height: 80px;
+      background-color: #FADE8B;
+      border-bottom-left-radius: 150px;
+      border-bottom-right-radius: 150px;
+      border: 40px solid #61A74E;
+      border-top: 0;
+      transform:translateX(-50%);
+  }
+  div {
+    position:absolute;
+    top:50%;
+    width: 400px;
+    height: 40px;
+    background: #61A74E;
+  }
+</style>
