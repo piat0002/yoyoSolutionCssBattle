@@ -1,0 +1,53 @@
+<div class="cercle"></div>
+<div class="g"></div>
+<div class="gd"></div>
+<div class="t"></div>
+<div class="dd"></div>
+<div class="d"></div>
+<style>
+  .g {
+    left:74px;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .d {
+    right:74px;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .gd {
+    left:102px;
+    top:67px;
+    transform:rotate(45deg);
+  }
+   .dd {
+    right:102px;
+    top:67px;
+    transform:rotate(-45deg);
+  }
+  .t {
+    width: 30px;
+    height: 60px;
+    top:24px;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .cercle {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  div {
+    position:absolute;
+    width: 60px;
+    height: 30px;
+    background: #4B4D88;
+    border-radius:30px;
+  }
+  body {
+    background:#5AED9C;
+  }
+</style>
