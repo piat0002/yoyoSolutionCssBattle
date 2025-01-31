@@ -1,0 +1,33 @@
+<div class="tr"></div>
+<div class="cercle"></div>
+<div class="bot"></div>
+<style>
+  body {
+    background:#2F5A76;
+  }
+  .tr {
+    background:#C15965;
+    width: 80px;
+    height: 60px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  .cercle {
+    width: 200px;
+    height: 140px;
+    border-radius:120px;
+    background:transparent;
+    border:#C15965 40px solid;
+  }
+  .bot {
+    top:250;
+    background:#2F5A76;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+</style>
