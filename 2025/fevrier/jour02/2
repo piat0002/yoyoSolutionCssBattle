@@ -1,0 +1,27 @@
+<div class="cli"></div>
+<div class="cercle"></div>
+<style>
+  body {
+    background:#EED9D9;
+  }
+  div {
+    position:absolute;
+  }
+  .cli {
+    width: 280px;
+    height: 180px;
+    clip-path: polygon(21% 0, 21% 33%, 100% 33%, 100% 100%, 79% 100%, 79% 66%, 0 66%, 0 0);
+    left:60px;
+    top:60px;
+    background: #469DBA;
+  }
+  .cercle {
+    background:#46487C;
+    border-radius:50%;
+    width: 120px;
+    height: 120px;
+    bottom:0;
+    left:50%;
+    transform:translate(-50%);
+  }
+</style>
