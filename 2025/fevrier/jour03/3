@@ -1,0 +1,46 @@
+<div class="cont">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+</div>
+<style>
+  .d {
+    bottom:0;
+  }
+  .c {
+    bottom:40px;
+  }
+  .b {
+    bottom:160px;
+  }
+  .a {
+    bottom:200px;
+  }
+  body {
+    background:#9076D8;
+  }
+  .cont2{
+    width: 100%;
+    height: 80px;
+  }
+  .cont {
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content:;
+    width: 80px;
+    height: 240px;
+    background: #F5E3B5;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%);
+  }
+  .cont div {
+    position:absolute;
+    clip-path: polygon(50% 60%, 0% 100%, 100% 100%);
+    width: 100%;
+    height: 100px;
+    background:#9076D8;
+  }
+</style>
