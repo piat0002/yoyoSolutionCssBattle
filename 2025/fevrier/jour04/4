@@ -1,0 +1,42 @@
+<div class="dg t"></div>
+<div class="dg m"></div>
+<div class="dd t"></div>
+<div class="dd m"></div>
+<div class="mid h"></div>
+<div class="basE mid"></div>
+<style>
+  .basE {
+    width: 252px;
+    top: 230px;
+  }
+  .t {
+    top:67px;
+  }
+  .m {
+    top:167px;
+  }
+  .dd {
+    transform:rotate(-45deg);
+    left:238px;
+  }
+  .dg {
+    transform:rotate(45deg);
+    left:102px;
+  }
+  .h {
+    width: 30px;
+    height: 60px;
+    top: 120px;
+  }
+  .mid {
+    left:50%;
+    transform:translate(-50%);
+  }
+  div {
+    position:absolute;
+    border-radius:40px;
+    width: 60px;
+    height: 30px;
+    background: #4B4D88;
+  }
+</style>
