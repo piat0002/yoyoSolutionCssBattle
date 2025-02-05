@@ -1,0 +1,48 @@
+<div class="a bo"></div>
+<div class="d"></div>
+<div class="b bo"></div>
+<div class="c"></div>
+<div class="f"></div>
+<style>
+  body {
+    background:#BFE33A;
+    margin:0;
+  }
+  .f {
+    left: 180px;
+    height: 60px;
+  }
+  .d {
+    left:160px;
+    top:140px;
+  }
+  .c {
+    width:80px;
+    height: 39px;
+    background:#BFE33A;
+    left:160px;
+    top:131px;
+  }
+  .a {
+    left:-20px;
+    top:30px;
+    
+  }
+  .b {
+    right:-20px;
+    bottom:30px;
+    border-top-width:0;
+  }
+  div {
+    position:absolute;
+    background:#BFE33A;
+    width:80px;
+    height: 160px;
+  }
+  .bo {
+    width: 160px;
+    height: 500px;
+    border-radius:200px;
+    border:40px #5A9F48 solid;
+  }
+</style>
