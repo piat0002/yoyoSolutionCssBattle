@@ -1,0 +1,52 @@
+<div class="cerclebot"></div>
+<div class="cercletop d"></div>
+<div class="cercletop g"></div>
+<div class="barre"></div>
+<style>
+  body {
+    background:#EA9A52;
+  }
+  div {
+    position:absolute;
+    width:160;
+    height:160;
+  }
+ .cerclebot {
+    left:80;
+    bottom:30;
+
+    border-radius: 50%;
+    display: inline-block;
+    background-color: transparent;
+    border-top: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid #96551A;
+    border-bottom: 40px solid #96551A;
+    transform: rotate(45deg);
+  }
+  .cercletop{
+    border-radius: 50%;
+    display: inline-block;
+    background-color: transparent;
+    border-top: 40px solid #96551A;
+    border-left: 40px solid #96551A;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    transform: rotate(45deg);
+  }
+  .g {
+    left:-20;
+    top:30;
+  }
+  .d {
+    right:-20;
+    top:30;
+  }
+  .barre {
+    background:#96551A;
+    left:0;
+    top:140;
+    width:410;
+    height:20;
+  }
+</style>
