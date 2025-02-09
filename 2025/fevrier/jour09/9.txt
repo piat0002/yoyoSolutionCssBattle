@@ -1,0 +1,29 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="cercle"></div>
+<style>
+  body {
+    background:#6592CF;
+  }
+  div {
+    position:absolute;
+    background: #243D83;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .cercle {
+    width:50px;
+    height:50px;
+    border:95px solid #6592CF;
+    border-radius:400px;
+  }
+  .a {
+    width:320px;
+    height:150px;
+  }
+  .b {
+    width:150px;
+    height:272px;
+  }
+</style>
