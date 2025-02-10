@@ -1,0 +1,47 @@
+<div class="barre"></div>
+<div class="rect"></div>
+<div class="cercle"></div>
+<div class="grand-cercle g"></div>
+<div class="grand-cercle d"></div>
+<style>
+  body {
+    margin:0;
+  }
+  .d {
+    right:-175px;
+  }
+  .g {
+    left:-175px;
+  }
+  .grand-cercle {
+    width: 240px;
+    height: 240px;
+    background:#FFFFFF;
+    border-radius:50%;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .cercle {
+    left:175px;
+    top:125px;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+  }
+  .rect {
+    top: 75px;
+    left: 105px;
+    width: 190px;
+    background:#FFFFFF;
+  }
+  .barre {
+    top: 75px;
+    width: 400px;
+    
+  }
+  div {
+    position:absolute;
+    background: #328FC1;
+    height: 150px;
+  }
+</style>
