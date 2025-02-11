@@ -1,0 +1,40 @@
+<div class="red b"></div>
+<div class="red t"></div>
+<div class="to"></div>
+<div class="mi"></div>
+<div class="bo"></div>
+<style>
+  .mi {
+    width: 280px;
+    height: 60px;
+    left:60px;
+    top:120px;
+  }
+  body {
+    background:#FBFDB7;
+    margin:0;
+  }
+  .red{
+    background:#D95362;
+  }
+  .b {
+    left:60px;
+    bottom:0;
+  }
+  .t {
+    left:280px;
+  }
+  .to {
+    left:60;
+  }
+  .bo {
+    left:280px;
+    bottom:0;
+  }
+  div {
+    position:absolute;
+    width: 60px;
+    height: 180px;
+    background: #46BA67;
+  }
+</style>
