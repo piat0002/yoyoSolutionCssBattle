@@ -1,0 +1,39 @@
+<div class="v"></div>
+<div class="vc"></div>
+<div class="h"></div>
+<div class="ver"></div>
+<style>
+  * {
+    background:#343D42;
+  }
+  .v {
+    bottom:90px;
+    left:90;
+    background:#7C87D1;
+    width: 220px;
+    height: 50px;
+  }
+  .vc {
+    width: 220px;
+    height: 110px;
+    bottom:150px;
+    left:90px;
+    border-radius: 110px 110px 0 0;
+    background:#7C87D1;
+  }
+  .h {
+    bottom:130px;
+    left:90;
+    width: 220px;
+    height: 20px;
+  }
+  .ver{
+    bottom:130px;
+    left:180;
+    width: 40px;
+    height: 95px;
+  }
+  div {
+    position:absolute;
+  }
+</style>
