@@ -1,0 +1,35 @@
+<div class="rect"></div>
+<div class="g to"></div>
+<div class="g bo"></div>
+<div class="t"></div>
+<style>
+  * {
+    background:#00B0C8;
+  }
+  .rect {
+    left:30px;
+    top:30px;
+    background:#183539;
+    width: 340px;
+    height: 240px;
+  }
+  div {
+    width: 100px;
+    height: 80px;
+    position:absolute;
+  }
+  .to {
+    top:10px;
+  }
+  .bo{
+    bottom:10px;
+  }
+  .g{
+    left:150;
+  }
+  .t{
+    height:280px;
+    width:20px;
+    left:190px;
+  }
+</style>
