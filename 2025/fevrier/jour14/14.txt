@@ -1,0 +1,38 @@
+<div class="rect"></div>
+<div class="gauche ba"></div>
+<div class="droite ba"></div>
+<div class="barre-vert"></div>
+<style>
+  body {
+    background:#75CF34;
+  }
+  .barre-vert{
+    width:120px;
+    height:20px;
+    top:140px;
+    left:140px;
+    background:#75CF34;
+  }
+  .ba{
+    width:40px;
+    height:140px;
+  }
+  .gauche {
+    top:80px;
+    left:210px;
+  }
+  .droite {
+    top:80px;
+    left:150px;
+  }
+  .rect {
+    width:120px;
+    height:100px;
+    top:100px;
+    left:140px;
+  }
+  div {
+    position:absolute;
+    background: #963032;
+  }
+</style>
