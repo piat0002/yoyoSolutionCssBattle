@@ -1,0 +1,52 @@
+<div class="rect g"></div>
+<div class="cache"></div>
+<div class="border-g cercle g"></div>
+<div class="border-g cercle d"></div>
+<div class="border-w cercle m"></div>
+<style>
+  .cache {
+    width:60px;
+    height:80px;
+    left:100px;
+  }
+  .rect {
+    width:60;
+    height:120;
+    border-radius:90px ;
+    border:solid #668884;
+    border-top: 30px solid #668884;
+    border-left: 30px solid #668884;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #668884;
+  }
+  .d {
+   left:240px;
+   bottom:90px;
+  }
+  .m {
+   left:140px;
+   bottom:90px;
+  }
+  .g {
+   left:40px;
+   bottom:90px;
+  }
+  .cercle{
+    border-radius:50%;
+    height:60px;
+    width:60px;
+  }
+  .border-g {
+    border:solid 30px #668884;
+  }
+  .border-w {
+    border:solid 30px #EED9D9;         
+    background:#668884;
+  }
+  * {
+    background:#EED9D9;
+  }
+  div {
+    position:absolute;
+  }
+</style>
