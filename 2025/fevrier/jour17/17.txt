@@ -1,0 +1,45 @@
+<div class="cercleTop"></div>
+<div class="cercle"></div>
+<div class="cercle34"></div>
+
+<style>
+  body {
+    background:#D95362;
+  }
+  div {
+    position:absolute;
+    width: 160px;
+    height: 160px;
+  }
+  .cercle {
+    width: 84px;
+    height: 84px;
+    left:158px;
+    top:138px;
+    border-radius: 50%;
+    background-color:#2D3464;
+  }
+  .cercle34 {
+      left:80px;
+      bottom:0;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: transparent;
+      border-top: 40px solid transparent;
+      border-left: 40px solid #2D3464;
+      border-right: 40px solid #2D3464;
+      border-bottom: 40px solid #2D3464;
+      transform: rotate(45deg);
+  }
+ .cercleTop {
+      left:80px;
+      bottom:200px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: transparent;
+      border-top: 40px solid transparent;
+      border-left: 40px solid #2D3464;
+      border-right: 40px solid #2D3464;
+      border-bottom: 40px solid transparent;
+      transform: rotate(46deg);
+ }
