@@ -1,0 +1,27 @@
+<div class="white">
+  <div></div>
+  <div class="black-2"></div>
+</div>
+
+<style>
+  * {
+    margin:0;
+    background:#46BA67;
+  }
+  .black-2 {
+    right:0;
+  }
+  .white {
+    left:50px;
+    bottom:0;
+    width: 300px;
+    height: 200px;
+    background:#D9D9D9;
+  }
+  div {
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    background: #343D42;
+  }
+</style>
