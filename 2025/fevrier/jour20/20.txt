@@ -1,0 +1,35 @@
+<div class="rect"></div>
+<div class="cg"></div>
+<div class="cp"></div>
+<style>
+  .cp {
+    background:#3F4869;
+    border-radius:100%;
+    left:110px;
+    top:160px;
+    width: 180px;
+    height:60px;
+  }
+  .rect {
+    width: 240px;
+    height: 90px;
+    left:80px;
+    bottom:0;
+    background:#9C8A39;
+  }
+  .cg {
+    top:153px;
+    left:80px;
+    border-radius:100%;
+    height:100px;
+    background:#FBE374;
+  }
+  body {
+    background:#3F4869;
+  }
+  div {
+    position:absolute;
+    width: 240px;
+    background: #dd6b4d;
+  }
+</style>
