@@ -1,0 +1,27 @@
+<div class="big-barre"></div>
+<div class="lit-barre"></div>
+<div class="rect"></div>
+<style>
+  *{
+    background:#96551A;
+  }
+  .rect{
+    width: 70px;
+    height: 70px;
+  }
+  .lit-barre {
+    width: 140px;
+    height: 20px;
+  }
+  .big-barre {
+    width: 140px;
+    height: 310px;
+    background:#EA9A52;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+</style>
