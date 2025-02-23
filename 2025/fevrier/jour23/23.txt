@@ -1,0 +1,30 @@
+<div class="grand"></div>
+<div class="a bo"></div>
+<div class="b bo"></div>
+<style>
+  .bo{
+    height:25px;
+    border:solid 25px #EAC049;
+  }
+  .a {
+   top:50; 
+  }
+  .b {
+    top:175; 
+  }
+  .grand {
+    height: 310px;
+    background: #51A499;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    width: 180px;
+
+  }
+  body{
+   margin:0;
+   background:#EAC049; 
+  }
+</style>
