@@ -1,0 +1,44 @@
+<div class="barre-blue"></div>
+<div class="cercle l"></div>
+<div class="cercle m"></div>
+<div class="cercle r"></div>
+<div class="cercle-w"></div>
+<style>
+  body {
+    background:#343D42;
+  }
+  .cercle-w {
+    left:150px;
+    top:70px;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#D9D9D9;
+  }
+  .l {
+    left:-70px;
+  }
+  .m {
+    left:80px;
+  }
+  .r {
+    right:-70px;
+  }
+  .cercle {
+    bottom:40;
+    width:240px;
+    height:240px;
+    border-radius:50%;
+    background:#343D42;
+  }
+  .barre-blue {
+    width:400px;
+    height:67px;
+    bottom:0;
+    left:0;
+    background:#328FC1;
+  }
+  div {
+    position:absolute;
+  }
+</style>
