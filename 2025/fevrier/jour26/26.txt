@@ -1,0 +1,45 @@
+<div class="barre b n g"></div>
+<div class="barre t w m"></div>
+<div class="barre b n d"></div>
+<div class="cer w g"></div>
+<div class="cer n m"></div>
+<div class="cer w d"></div>
+<style>
+  .barre{
+    height:130px
+  }
+  .cer{
+    border-radius:50%;
+    top:130px;
+    
+    height:40px;
+  }
+  .d {
+    left:280px;
+  }
+  .m {
+    left:180px;
+  }
+  .g {
+    left:80;
+  }
+  .t{
+    top:0;
+  }
+  .b{
+    bottom:0;
+  }
+  .w{
+    background:#FAE29E;
+  }
+  .n {
+    background:#4C4C6B;
+  }
+  body{
+    background:#46BA67;
+  }
+  div {
+    position:absolute;
+    width:40px;
+  }
+</style>
