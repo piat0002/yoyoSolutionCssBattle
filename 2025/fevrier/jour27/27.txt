@@ -1,0 +1,34 @@
+<div class="topm"></div>
+<div class="mid"></div>
+<div class="cercle"></div>
+<style>
+  .topm {
+    top:96;
+    width:265;
+    height:30;
+    left:75;
+    transform:translateX(0);
+  }
+  .cercle {
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+    bottom:224px;
+    border:#46BA67 30px solid;
+    background:transparent;
+  }
+  .mid {
+    top:0;
+    width: 100px;
+    height: 400px;
+  }
+  body {
+    background:#183539;
+  }
+  div {
+    position:absolute;
+    background: #46BA67;
+        left:50%;
+    transform:translateX(-50%);
+  }
+</style>
