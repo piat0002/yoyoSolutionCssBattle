@@ -1,0 +1,41 @@
+<div class="yin-yang">
+  <div class="noir"></div>
+  <div class="jaune"></div>
+</div>
+<div class="petit-cercle"></div>
+<style>
+  .petit-cercle{
+    width: 40px; height: 40px;
+    position:absolute;
+    left:140px;
+    top:170px;
+    background:#EAC049;
+    border-radius: 50%;
+  }
+  .yin-yang {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    background: linear-gradient(#343D42 50%, #EAC049 0);
+    transform:rotate(0deg);
+    left:120;
+    top:70;
+  }  
+  .jaune{
+    flex: 1;
+    height: 50%;
+    border-radius: 50%;
+    background: #EAC049;
+  } 
+  .noir{
+    flex: 1;
+    height: 50%;
+    border-radius: 50%;
+    background: #343D42;
+  }
+  body {
+      background:#EAC049;
+  }
+</style>
