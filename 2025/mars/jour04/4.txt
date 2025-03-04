@@ -1,0 +1,32 @@
+<div class="para-1"></div>
+<div class="para-2"></div>
+<div class="cercle"></div>
+<style>
+  .para-1 {
+    width:400px;height:100px;
+    top:0;
+    left:0;
+    clip-path: polygon(0 0, 100% 0, 81% 100%, 19% 100%);
+  }
+  .para-2 {
+    width:400px;height:100px;
+    bottom:0;
+    left:0;
+    clip-path: polygon(19% 0%, 81% 0%, 100% 100%, 0% 100%);
+  }
+  .cercle {
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:169px;height:169px;
+    border-radius:50%;
+    background:#4A9A86;
+  }
+  div {
+    position:absolute;
+    background: #EBF6F0;
+  }
+  body{
+    background:#4A9A86;
+  }
+</style>
