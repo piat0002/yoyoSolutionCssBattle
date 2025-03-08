@@ -1,0 +1,31 @@
+<div class="rose"></div>
+<div class="cercle left "></div>
+<div class="cercle right"></div>
+<style>
+  .cercle {
+    
+  }
+  .cercle {
+    background:#498488;
+    width:132px; height:132px;
+    top:160px;
+    border-radius:50%;
+  }
+  .right {
+  right:8;    
+  }
+  .rose {
+    left:80px;
+    top:80;
+    width:240px;
+    height:120px;
+    background:#D99795;
+    border-top:#D9D9D9 solid 20px;
+  }
+  div {
+    position:absolute;
+  }
+  body {
+    background:#498488;
+  }
+</style>
