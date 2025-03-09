@@ -1,0 +1,29 @@
+<div class="fleche-gauche"></div>
+<div class="fleche-droite"></div>
+<div class="bot"></div>
+<style>
+  .fleche-droite{
+    left:200px;top:0;
+    width:120px;height:160px;
+    clip-path: polygon(100% 0%, 34% 51%, 100% 100%, 67% 100%, 0 50%, 67% 0);
+    background:#323130;
+  }
+  .fleche-gauche{
+    left:80px;top:0;
+    width:120px;height:160px;
+    clip-path: polygon(34% 0%, 100% 50%, 34% 100%, 0% 100%, 67% 50%, 0% 0%);
+    background:#323130;
+  }
+  .bot{
+    left:80px; bottom:0;
+    width:160px;height:140px;
+    border:#323130 solid;
+    border-width: 0 40px;
+  }
+  body {
+    background:#C12E33;
+  }
+  div {
+    position:absolute;
+  }
+</style>
