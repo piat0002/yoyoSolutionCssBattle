@@ -1,0 +1,31 @@
+<div class="para"></div>
+<div class="barre"></div>
+<style>
+  body{
+    background:#F58220;
+  }
+  .barre {
+    left:160px;
+    top:140px;
+    width:80px;
+	height:20px;
+    background:#FFFFFF;
+  }
+  .para {
+    left:110px;
+    top:70px;
+	width:60px;
+	height:160px;
+	-webkit-transform:skew(-25deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+	tranform:skew(-25deg);
+    border:solid #FFFFFF;
+    border-width:0 60px;
+  }
+  div {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+  }
+</style>
