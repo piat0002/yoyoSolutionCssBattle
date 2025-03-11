@@ -1,0 +1,20 @@
+<div class="border-TB"></div>
+<div class="mid"></div>
+<style>
+  body{
+    background:#323130;
+  }  
+   .border-TB {
+    width: 160px; height: 140px;
+    border-width:90px 0;
+  }
+  .mid {
+    width: 80px; height: 40px;
+    border-width:20px 300px;
+  }
+  div {
+    position:absolute;
+    left:50%;top:50%;transform:translate(-50%,-50%);
+    border:#00B0C8 solid;
+  }
+</style>
