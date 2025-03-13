@@ -1,0 +1,30 @@
+<div class="cell l"></div>
+<div class="cell r"></div>
+<div class="barre"></div>
+<style>
+  body {
+    background:#FFE8BD;
+  }
+  .r {
+    right:80px;
+  }
+  .l {
+    left:80px;
+  }
+  .cell {
+    top:45px;
+    border:#31798F 40px solid;
+    border-radius:100px 100px;
+    width: 60px;
+    height:300px;
+  }
+  div {
+    position:absolute;
+  }
+  .barre {
+    bottom:0;
+    width:360px;
+    height:45px;
+    background:#FFE8BD;
+  }
+</style>
