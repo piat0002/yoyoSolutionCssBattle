@@ -1,0 +1,25 @@
+<div class="cercle"></div>
+<div class="barre"></div>
+<style>
+  body {
+    background:#4F77FF;
+  }
+  .barre{
+    top:214;
+    left:72px;
+    width:224px;
+    border-width:16px;
+  }
+  .cercle {
+    left:104px;
+    top:54px;
+    width: 130px;
+    height: 130px;
+    border-radius:50%;
+    border-width:31px;
+  }
+  div {
+    position:absolute;
+    border:#FFFFFF solid;
+  }
+</style>
