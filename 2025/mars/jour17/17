@@ -1,0 +1,53 @@
+<div class="cercle"><div></div></div>
+<div class="barres"></div>
+<div class="noir gauche"></div>
+<div class="noir droite"></div>
+<style>
+  .barres{
+    width:30px;
+    height:200px;
+    border:#65A3C5 solid;
+    border-width:0 25px;
+    top:60px;
+    left:160px;
+  }
+  .noir{
+    width:25px;
+    height:25px;
+    background:#000000;
+    border-bottom:#F1DDF5 solid 200px;
+    
+  }
+  .droite{
+    top:241px;
+    right:160px;
+  }
+  .gauche{
+    top:141px;
+    left:160px;
+  }
+  .cercle {
+    left:160px;
+    top:25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(#65A3C5 50%, #EAC049 0);
+}
+  .cercle div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background:#000000;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+   background: #F1DDF5;
+  }
+  
+</style>
