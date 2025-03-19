@@ -1,0 +1,44 @@
+<div class="traits"></div>
+
+<div class="cont">
+  <div class="cercle g"></div>
+  <div class="cercle d"></div>
+</div>
+<style>
+  .cercle{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:#1A353C 30px solid;
+  }
+  .g{
+    transform:translate(-100%,-50%);
+  }
+  .d{
+    right:0;
+    transform:translate(100%,-50%); 
+  }
+  .cont{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:80px;
+    border:solid;
+    border:#1A353C 15px solid;
+  }
+  .traits{
+    border:#1A353C 30px solid;
+    border-width:0 30px;
+    width:170px;
+    height:300px;
+    left:85px;
+    top:0;
+  }
+  div {
+    position:absolute;
+    background: #66DBB8;
+  }
+  body{
+    background:#66DBB8;
+  }
+</style>
