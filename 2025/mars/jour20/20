@@ -1,0 +1,33 @@
+<div class="traits grand"></div>
+<div class="traits petit"></div>
+<div class="mid"></div>
+<style>
+  .mid{
+    width:60px;
+    height:30px;
+    background:#1A353C;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .petit{
+    width:40px;
+  }
+  .grand{
+    width:170px;
+  }
+  .traits{
+    height:300px;
+    border:#1A353C 30px solid;
+    border-width:0 30px;
+    left:50%;
+    top:0;
+    transform:translate(-50%);
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#D4ED33;
+  }
+</style>
