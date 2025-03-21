@@ -1,0 +1,33 @@
+<div class="barre"></div>
+<div class="barres"></div>
+ <div class="triangle"></div>
+<style>
+  .barre{
+    background:#31798F;
+    width:40px;
+    bottom:0;
+  }
+  .barres{
+    bottom:0;
+    width: 160px;
+    border:solid #31798F;
+    border-width:0 40px;
+  }
+  .triangle{
+    top:60px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background:#1A353C;
+    width: 300px;
+    height: 120px;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    width: 100px;
+    height: 130px;
+  }
+  body{
+    background:#A9FFFC;
+  }
+</style>
