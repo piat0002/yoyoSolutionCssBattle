@@ -1,0 +1,37 @@
+<div class="cont">
+  <div class="barre"></div>
+  <div class="cercle"></div>
+</div>
+<style>
+  .cont{
+    left:75px;
+    top:80px;
+    width: 250px;
+    height: 140px;
+    background:#E3516E;
+    clip-path: polygon(25% 0, 75% 0, 100% 35%, 100% 65%, 75% 100%, 25% 100%, 0 65%, 0 35%);
+  }
+  .cont *{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .barre {
+    background:#FADE8B;
+    width: 250px;
+    height: 40px;
+  }
+  .cercle{
+    background:#E3516E;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    border:solid #FADE8B 30px;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#FADE8B;
+  }
+</style>
