@@ -1,0 +1,45 @@
+<div class="cont-top">
+  <div class="orange"></div>
+  <div class="cercle"></div>
+</div>
+<div class="carre"></div>
+<style>
+  .orange{
+    z-index:-1;
+    width: 40px;
+    height: 65px;
+    top:14px;
+    left:50%;
+    transform:translate(-50%);
+    background:#E0B673;
+    border-top:#FFFFFF solid 14px;
+  }
+  .cercle{
+    width: 100px;
+    height: 113px;
+    border-radius:50%;
+    background:#FFFFFF;
+    left:50%;
+    transform:translate(-50%);
+    bottom:-50%;
+  }
+  .cont-top{
+    overflow:hidden;
+    left:80px;
+    top:39px;
+    width: 240px;
+    height: 125px;
+    clip-path: polygon(41% 0%, 59% 0%, 100% 100%, 0% 100%);
+    background:#1A353C;
+  }
+  .carre{
+    left:100px;
+    bottom:0;
+    width: 200px;
+    height: 136px;
+    background:#1A353C;
+  }
+  div {
+    position:absolute;
+  }
+</style>
