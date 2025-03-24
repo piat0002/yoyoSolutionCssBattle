@@ -1,0 +1,36 @@
+<div class="cont">
+  <div class="vertical"></div>
+  <div class="horizontal"></div>
+  <div class="frame"></div>
+</div>
+<style>
+  .frame{    
+    width:220px;
+    height:120px;
+    border:#66284A solid 20px;
+  }
+  .horizontal{
+    width:300px;
+    height:80px;
+    background:#E3516E;
+  }
+  .vertical{
+    width:180px;
+    height:200px;
+    background:#E3516E;
+  }
+  .cont{
+    width:340px;
+    height:240px;
+    background:#66284A;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+  }
+  body{
+    background:#E3516E;
+  }
+</style>
