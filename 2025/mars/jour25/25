@@ -1,0 +1,40 @@
+<div class="cercle">
+  <div class="tige">
+    <div class="panneton-haut"></div>
+    <div class="panneton-bas"></div>
+  </div>
+</div>
+<style>
+  .panneton-haut{
+    width: 54px;
+    height: 14px;
+    top:76px;
+  }
+  .panneton-bas{
+    width: 70px;
+    height: 30px;
+    top:100px;
+  }
+  .tige{
+    width: 40px;
+    height: 147px;
+    top: 50px;
+  }
+  .cercle{    
+    left:144px; top:30px;
+    width: 40px;
+    height: 40px;
+    background:#E35158;
+    border:#D9D9D9 solid 36px;
+    border-radius:50%;
+  }
+  div {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background: #D9D9D9;
+  }
+  body{
+    background:#E35158;
+  }
+</style>
