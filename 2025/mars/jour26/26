@@ -1,0 +1,39 @@
+
+<div class="cercle">
+  <div class="rect"></div>
+  <div class="trou"></div>
+</div>
+<style>
+  .trou{
+    bottom:134px;
+    width: 31px;
+    height: 81px;
+    left:50%;
+    transform:translate(-50%);
+    background:#2D3464;
+    border-top:#DAB897 solid 60px;
+  }
+  .rect{
+    top:40px;
+    left:50%;
+    transform:translate(-50%);
+    width: 101px;
+    height: 70px;
+    background:#DAB897;
+  }
+    .cercle {
+    top:200px;
+    left:50%;
+    transform:translate(-50%);
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background: linear-gradient(#DAB897 36%, #2D3464 0);
+}
+  div {
+    position:absolute;
+  }
+  body{
+    background:#2D3464;
+  }
+</style>
