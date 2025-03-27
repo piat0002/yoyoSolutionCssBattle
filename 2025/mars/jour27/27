@@ -1,0 +1,69 @@
+<div class="head">
+  <div class="eye"></div>
+  <div class="crete">
+    <div class="litle"></div>
+    <div class="mid"></div>
+    <div class="tall"></div>
+  </div>
+  <div class="beak"></div>
+</div>
+<style>
+  .crete {
+    left:30px;
+    transform:translateY(-50%);
+    display:flex;
+    z-index:-1;
+    align-items: center;
+    gap:10px;
+  }
+  .crete * {
+    position:static;
+    background:#EA3323;
+    border-radius:50%;
+  }
+  .litle{
+    width: 10px;
+    height: 10px;
+  }
+  .mid{
+    width: 20px;
+    height: 20px;
+  }
+  .tall{
+    width: 30px;
+    height: 30px;
+  }
+
+  .beak{
+    right:0;
+    top:30px;
+    width:40px;
+    height:80px;
+    transform:translateX(100%);
+    background:#F2A73B;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .eye{
+    left:105px;
+    top:30px;
+    background:#282828;
+    border-radius:50%;
+    width:15px;
+    height:30px;
+  }
+  .head{
+    left:130px;
+    top:80px;
+    width: 140px;
+    height: 140px;
+    border-radius:20px;
+    background:#FFFFFF;
+  }
+  div {
+    position:absolute;
+
+  }
+  body {
+    background:#282828;
+  }
+</style>
