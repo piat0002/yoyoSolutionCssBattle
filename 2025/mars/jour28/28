@@ -1,0 +1,26 @@
+<div class="cont">
+  <div></div>
+</div>
+<style>
+  .cont div{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width: 300px;
+    height: 20px;
+  }
+  .cont{
+    left:130px;
+    top:80px;
+    width: 100px;
+    height: 100px;
+    border:#1A353C 20px solid;
+  }
+  div {
+    position:absolute;
+    background: #FFFFFF;
+  }
+  body{
+    background:#00B0C8;
+  }
+</style>
