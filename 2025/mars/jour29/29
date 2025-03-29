@@ -1,0 +1,35 @@
+<div class="mid"></div>
+<div class="cercle top"></div>
+<div class="cercle bot"></div>
+<style>
+  .mid{
+    width: 280px;
+    height: 180px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .top{
+    top:0;
+    right:0;
+    transform:translate(50%,-50%);
+  }
+   .bot{
+    bottom:0;
+    left:0;
+    transform:translate(-50%,50%);
+  }
+  .cercle{
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    border:#FFFFCD 60px solid;
+  }
+  div {
+    position:absolute;
+    background: #6592CF;
+  }
+  body{
+    background:#FFFFCD;
+  }
+</style>
