@@ -1,3 +1,3 @@
 # yoyoSolutionCssBattle
 
-Mes solutions qui repondent aux defis css journaliers du site:https://cssbattle.dev/play/
+Mes solutions qui répondent aux défis CSS quotidiens du site :https://cssbattle.dev/play/
