@@ -1,0 +1,25 @@
+<div></div>
+<div></div>
+<style>
+  div{
+    position:absolute;
+  }
+  div:nth-of-type(1) {
+    left:0;
+    top:0;
+    height:180px;
+    width:230px;
+    border-top:solid #EAC049 60px;
+    border-bottom:solid #EAC049 60px;
+  }
+    div:nth-of-type(2) {
+    right:0;
+    top:60px;
+    height:180px;
+    width:170px;
+    background:#EAC049;
+  }
+  *{
+    background:#51A499;
+  }
+</style>
