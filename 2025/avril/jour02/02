@@ -1,0 +1,41 @@
+<div class="cercle-cont">
+  <div class="barre-top"></div>
+  <div class="barre-bot"></div>
+</div>
+
+<style>
+  .barre-top{
+    bottom:50%;
+    left:50%;
+    transform:translateX(-50%);
+    width:200px;
+    height:80px;
+    background:#394257;
+  }
+  .barre-bot{
+    top:95%;
+    left:50%;
+    transform:translateX(-50%);
+    width:30px;
+    height:110px;
+    border-left:#394257 solid 30px;
+    border-right:#394257 solid 30px;
+  }
+  .cercle-cont div{
+    z-index:-1;
+  }
+  .cercle-cont{
+    left:120px;
+    top:70px;
+    border:#394257 solid 30px;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+  }
+  div{
+    position:absolute;
+  }
+  *{
+    background:#5A9F48;
+  }
+</style>
