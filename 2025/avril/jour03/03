@@ -1,0 +1,32 @@
+<div class="cercle"></div>
+<div class="rect"></div>
+<div class="right"></div>
+<style>
+  .right{
+    left:240px;
+    width: 160px;
+    height: 40px;
+    border:#F5E3B5 solid 20px;
+    border-radius:50px;
+  }
+  .rect{
+    left:120px;
+    width: 160px;
+    height: 120px;
+  }
+  .cercle{
+    left:80px;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+  }
+  div {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background: #469DBA;
+  }
+  body{
+    background:#F5E3B5;
+  }
+</style>
