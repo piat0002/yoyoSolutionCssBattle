@@ -1,0 +1,28 @@
+<div class="top"></div>
+<div class="bot"></div>
+<style>
+  .top{
+    border:#56AE68 solid 30px;
+    left:80px;
+    top:45px;
+    width:180px;
+    height:80px;
+    border-radius:0 100px 100px 0;
+  }
+  .bot{
+    top:155px;
+    left:80px;
+    width:180px;
+    height:70px;
+    border-top:#56AE68 solid 30px;
+    border-left:#56AE68 solid 30px;
+    border-right:#56AE68 solid 30px;
+    border-radius:0 70px 0 0;
+  }
+  div{
+    position:absolute;
+  }
+  body{
+    background:#FFEEEE;
+  }
+</style>
