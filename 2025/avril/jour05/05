@@ -1,0 +1,34 @@
+<div class="cercle">
+  <div class="carre1 carre"></div>
+  <div class="carre2 carre"></div>
+</div>
+<style>
+  .carre1{
+    transform:translate(-50%,-50%) rotate(45deg);
+  }
+  .carre2{
+    transform:translate(-50%,-50%) rotate(-45deg);
+  }
+  .carre{
+    border:#DE6B67 solid;
+    border-width:90px 0;
+    width: 20px;
+    height: 20px;
+  }
+  .cercle {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    background:#DE6B67;
+    transform:translate(-50%,-50%);
+  }
+  div {
+    left:50%;
+    top:50%;
+    position:absolute;
+    background: #E8AD6D;
+  }
+  body {
+    background:#E8AD6D;
+  }
+</style>
