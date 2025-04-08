@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="t1 border-t"></div>
+  <div class="t2 border-t"></div>
+  <div class="l1 border-l"></div>
+  <div class="l2 border-l"></div>
+</div>
+<style>
+  
+  .border-l{
+    border:#5A9F48 solid;
+    border-width:0 20px;
+  }
+  .border-t{
+    border:#5A9F48 solid;
+    border-width:20px 0;
+  }
+  .container {
+    background:#5A9F48;
+    width:140px;
+    height:140px;
+    left:50%; top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .t1{
+    width:100px;
+    height:169px;
+  }
+  .t2{
+    width:60px;
+    height:237px;
+  }
+  .l1{
+    width:169px;
+    height:100px;
+  }
+  .l2{
+    width:237px;
+    height:60px;
+  }
+  .container div{
+    left:50%; top:50%;
+    transform:translate(-50%,-50%);
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#14576B;
+  }
+</style>
