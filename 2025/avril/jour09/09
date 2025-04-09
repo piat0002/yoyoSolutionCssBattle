@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="cercle"></div>
+  <div class="barre"></div>
+</div>
+<style>
+  .cercle{
+    border-radius:50%;
+    width:180px;
+    height:180px;
+  }
+  .barre{
+    border:#FFFFFF solid 10px;
+    width:260px;
+  }
+  .container {
+    border:#FFFFFF solid 20px;
+    width:260px;
+    height:100px;
+    left:50%; top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .container *{
+    left:50%; top:50%;
+    transform:translate(-50%,-50%);
+  }
+  div {
+    position:absolute;
+  }
+  *{
+    background:#F58220;
+  }
+</style>
