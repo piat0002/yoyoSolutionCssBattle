@@ -1,0 +1,29 @@
+<div class="red"></div>
+<div class="white"></div>
+<style>
+  .white{
+    background:#6C3232;
+    width: 140px;
+    height: 20px;
+    border:#FFFFFF solid;
+    border-width:10px 80px ;
+    border-radius:50%;
+    left:50px;
+    top:40px;
+  }
+  .red{
+    border-radius: 400px 300px / 50px 50px ;
+    background: #995757;
+    left:50px;
+    bottom:40px;
+    width: 300px;
+    height: 216px;
+  }
+  div {
+    position:absolute;
+
+  }
+  body{
+    background:#E3CC9E;
+  }
+</style>
