@@ -1,0 +1,30 @@
+<div class="cont">
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="a"></div>
+  <div class="b"></div>
+</div>
+<style>
+  .cont{
+    position:absolute;
+    left:35px;
+    top:125px;
+    display:flex;
+    gap:10px;
+    align-items:flex-end;
+  }
+  .a{
+    width:100px;
+  }
+  .b{
+    width:50px;
+  }
+  .cont div{
+    height:50px;
+    background:#2A2753;
+    border-radius:50px;
+  }
+  body{
+    background:#E3CC9E;
+  }
+</style>
