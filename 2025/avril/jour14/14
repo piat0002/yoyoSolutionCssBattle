@@ -1,0 +1,44 @@
+<div class="cont-cercle">
+  <div class="flex-cont">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="carre"></div>
+</div>
+<style>
+  body{
+    background:#343400;
+  }
+  .cont-cercle{
+    left:75px; top:70px;
+    width: 250px;
+    height: 160px;
+    position:absolute;
+    background:#469DBA;
+    border-radius:50%;
+  }
+  .cont-cercle > *{
+    position:absolute;
+    
+  }
+  .flex-cont{
+    left:40px; top:65px;
+    display:flex;
+    gap:40px;
+  }
+  .flex-cont *{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background:#343400;
+  }
+  .carre{
+    left:15px; bottom:20px;
+    width: 30px;
+    height: 30px;
+    background:#469DBA;
+  }
+  div {
+  }
+</style>
