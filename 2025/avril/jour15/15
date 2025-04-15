@@ -1,0 +1,36 @@
+<div class="cont-u">
+  <div class="u"></div>
+  <div class="cercle"></div>
+</div>
+<style>
+  .cont-u{
+    left:100px;
+    top:30;
+    height:170px;
+    width:60px;
+    border:70px solid #D96E9F;
+    border-bottom: 0px;
+    border-radius: 200px 200px 0px 0px ;
+  }
+  .u{
+    top:-40px;left:50%; transform:translateX(-50%);
+    height:170px;
+    width:120px;
+    border:10px solid #4C3AB3;
+    border-bottom: 0px;
+    border-radius: 200px 200px 0px 0px;
+  }
+  .cercle{
+    top:10px;left:50%; transform:translateX(-50%);
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    background:#D96E9F;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#4C3AB3;
+  }
+</style>
