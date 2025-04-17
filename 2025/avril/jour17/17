@@ -1,0 +1,34 @@
+<div class="c1"></div>
+<div class="c2"></div>
+<div class="c3"></div>
+<div class="c4"></div>
+<style>
+  .c1{
+    border:120px #FFFFFF solid;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+  }
+  .c2{
+    border:80px #FFFFFF solid;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+  }
+    .c3{
+    border:40px #FFFFFF solid;
+    border-bottom-color:transparent;
+  }
+    .c4{
+    border:20px #FFFFFF solid;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    border-radius:50%;
+  }
+  body{
+    background:#D96C7B;
+  }
+</style>
