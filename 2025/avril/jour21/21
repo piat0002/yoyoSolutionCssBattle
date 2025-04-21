@@ -1,0 +1,35 @@
+<div class="l"></div>
+<div class="cercle"></div>
+<div class="r"></div>
+<style>
+  .r{
+    right:0;
+    top:50%;
+    clip-path: polygon(0 0, 50% 0, 50% 50%, 100% 50%, 100% 100%, 0 100%);
+    background:#8AB8B6;
+  }
+  .l{
+    left:0;
+    bottom:50%;
+    clip-path: polygon(0 0, 0 50%, 50% 50%, 50% 100%, 100% 100%, 100% 0);
+    background:#D96C7B;
+  }
+  .cercle{
+    width: 160px;
+    height: 160px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    background: linear-gradient(#D96C7B 50%, #8AB8B6 0);
+    
+  }
+  div {
+    position:absolute;
+    width: 120px;
+    height: 120px;
+  }
+  body{
+    background:#4C455B;
+  }
+</style>
