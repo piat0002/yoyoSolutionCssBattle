@@ -1,0 +1,35 @@
+<div class="triangle">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>
+</div>
+<style>
+  .item1{
+    left:45px;
+  }
+  .item2{
+    left:115px;
+  }
+  .item3{
+    left:185px;
+  }
+  .triangle{    
+    left:70px;
+    top:100px;
+    width: 260px;
+    height: 100px;
+    background:#2A2753;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+  .triangle div{
+    width: 30px;
+    height: 100px;
+    background:#5A9F48;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#5A9F48;
+  }
+</style>
