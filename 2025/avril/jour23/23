@@ -1,0 +1,47 @@
+<div class="cont">
+  <div class="tl"></div>
+  <div class="tr"></div>
+  <div class="br"></div>
+  <div class="bl"></div>
+</div>
+<style>
+  .bl,.tr{
+    width: 80px;
+  }
+  .tl{
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+  }
+  .tr{
+    right:0;
+    transform:translateY(-50%);
+  }
+  .br{
+    bottom:0;
+    right:0;
+    transform:translate(50%,50%);
+    border-radius:50%;
+  }
+  .bl{
+    bottom:0;
+    transform:translateY(50%);
+  }
+  .cont {
+    width: 160px;
+    height: 160px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background:#FFFFFF;
+  }
+  
+  div {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    background:#9A5DCB;
+  }
+  body {
+    background:#68D0DF;
+  }
+</style>
