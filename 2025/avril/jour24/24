@@ -1,0 +1,38 @@
+<div class="cont">
+  <div class="carres"></div>
+  <div class="barre"></div>
+</div>
+<style>
+  .carres{
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+    width: 50px;
+    height: 150px;
+    border:solid #5DCBA3;
+    border-width:50px 0;
+  }
+  .barre{
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+    width: 50px;
+    height: 150px;
+    border:solid #5DCBA3;
+    border-width: 0 0 0 50px ;
+  }
+  .cont {
+    width: 350px;
+    height: 50px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background:#5DCBA3;
+  }
+  div {
+    position:absolute;
+  }
+  body {
+    background:#6255AA;
+  }
+</style>
