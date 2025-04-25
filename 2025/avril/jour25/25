@@ -1,0 +1,54 @@
+<div class="cont r">
+  <div class="yellow-cont y">
+    <div class="cercle-red r"></div>
+  </div>
+  <div class="cercle-yellow y"></div>
+</div>
+<style>
+  .cercle-red{
+    left:50%;
+    transform:translate(-50%);
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    bottom:15px;
+  }
+  .cercle-yellow{
+    bottom:45px;
+    width:30px;
+    height:30px;
+    left:50%;
+    transform:translate(-50%);
+    border-radius:50%;
+  }
+  .yellow-cont{
+    top:0;
+    left:50%;
+    transform:translate(-50%);
+    width:50%;
+    height:57%;
+    border-bottom-right-radius:50% 28%;
+    border-bottom-left-radius:50% 28%;;
+  }
+  .cont{
+    top:0;
+    left:50%;
+    transform:translate(-50%);
+    width:120px;
+    height:210px;
+    border-bottom-right-radius:50% 28%;
+    border-bottom-left-radius:50% 28%;
+}
+  div{
+    position:absolute;
+  }
+  body{
+    background:#F5E3B5;
+  }
+  .y{
+    background:#F5E3B5;
+  }
+  .r{
+    background:#8D424D;
+  }
+</style>
