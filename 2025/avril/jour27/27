@@ -1,0 +1,35 @@
+<div class="cont-cercle">
+  <div class="top"></div>
+  <div class="bottom"></div>
+</div>
+<style>
+  .top{
+    width:180px;
+    height:90px;
+  }
+  .bottom{
+    bottom:0;
+    left:50%;
+    transform:translate(-50%);
+    width:120px;
+    height:90px;
+  }
+  .cont-cercle *{
+    background:#5AA4B7;
+  }
+  .cont-cercle{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#CAEBE4;
+  }
+</style>
