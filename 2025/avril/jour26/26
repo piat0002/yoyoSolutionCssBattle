@@ -1,0 +1,48 @@
+<div class="cont">
+  <div class="cercle-r left"></div>
+  <div class="cercle-r right"></div>
+  <div class="cercle-border">
+    <div class="barre"></div>
+  </div>
+</div>
+<style>
+  .cercle-border{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    border:#282828 solid 30px;
+  }
+  .cercle-r{
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    background:#EA3323;
+  }
+  .right{
+    right:0;
+  }
+  .barre{
+    background:#282828;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 20px;
+    height: 110px;
+  }
+  .cont{
+    top:50%;
+    left:100px;
+    transform:translateY(-50%);
+    width: 200px;
+    height: 120px;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#282828;
+  }
+</style>
