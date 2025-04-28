@@ -1,0 +1,30 @@
+<div class="barre"></div>
+<div class="barres-green-2"></div>
+<div class="squircle"></div>
+<style>
+  .squircle{
+    width:70px;
+    height:170px;
+    border:#4C4C6B solid 15px;
+    border-radius:50px;
+  }
+  .barres-green-2{
+    width:400px;
+    height:40px;
+    border:#66DBB8 solid 10px;
+  }
+  .barre{
+    width:400px;
+    height:100px;
+    background:#4C4C6B;
+  }
+  div {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  body{
+    background:#66DBB8;
+  }
+</style>
