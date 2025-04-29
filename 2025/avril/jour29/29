@@ -1,0 +1,51 @@
+<div class="cont">
+  <div class="item1"></div>
+  <div class="item2">
+    <div class="cercle l"></div>
+    <div class="cercle r"></div>
+  </div>
+</div>
+<style>
+  .l{
+    left:30px;
+  }
+  .r{
+    right:30px;
+  }
+  .cercle{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#FFFFFF;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .item1{
+    width: 120px;
+    height: 280px;
+  }
+  .item2{
+    width: 280px;
+    height: 120px;
+  }
+  .cont > div{
+    border-radius:60px;
+    background:#243D83;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .cont{
+    width: 280px;
+    height: 280px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    background:#F7EC7D;
+  }
+</style>
