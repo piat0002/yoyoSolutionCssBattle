@@ -1,0 +1,38 @@
+<div class="top"></div>
+<div class="midle"></div>
+<div class="bottom"></div>
+<style>
+  .top{
+    width:260px;
+    height:50px;
+    top:20px;
+    left:20px;
+    border:#F4DA64 solid;
+    border-width:0px 50px;
+  }
+  .midle{
+    width:160px;
+    height:160px;
+    bottom:100px;
+    left:70px;
+    border:#F4DA64 50px solid;
+    border-radius:50%;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    transform:rotate(45deg);
+  }
+  .bottom{
+    left:175px;
+    top:220px;
+    width: 50px;
+    height: 50px;
+    background: #F4DA64;
+  }
+  div {
+    position:absolute;
+
+  }
+  body{
+    background:#3F4869;
+  }
+</style>
