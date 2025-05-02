@@ -1,0 +1,36 @@
+<div class="cont">
+  <div class="item it1"></div>
+  <div class="item it2"></div>
+  <div class="item it3"></div>
+</div>
+<style>
+  .it1{
+    border-radius:20px 20px 0 0 ;
+    grid-column:2/3;
+    grid-row:1/2;
+  }
+  .it2{
+    border-radius:20px 0  20px  0;
+    grid-column:1/2;
+    grid-row:2/3;
+  }
+  .it3{
+    border-radius:0 20px 0 20px;
+    grid-column:3/4;
+    grid-row:2/3;
+  }
+  .item{
+    background:#9A5DCB;
+  }
+  .cont{
+    position:absolute;
+    display:grid;
+    grid-template-columns:repeat(3,80px);
+    grid-template-rows:repeat(3,80px);
+    top:70px;
+    left:80px;
+  }
+  body{
+    background:#FEFAED;
+  }
+</style>
