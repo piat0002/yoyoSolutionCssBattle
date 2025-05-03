@@ -1,0 +1,43 @@
+<div class="cercle-border top"></div>
+<div class="cercle-border bot"></div>
+<div class="cercle left"></div>
+<div class="cercle right"></div>
+<style>
+  .right{
+    transform:translateX(50%);
+    top:20px;
+    right:0px;
+  }
+  .left{
+    transform:translateX(-50%);
+    top:20;
+  }
+  .top{
+    transform:translateY(-50%);
+    right:70px;
+  }
+  .bot{
+    transform:translateY(50%);
+    bottom:0;
+    right:70px;
+  }
+  .cercle-border{
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+    border:#F4DA64 solid 50px;
+  }
+  .cercle{
+    border-radius:50%;
+    background:#F4DA64;
+    width: 260px;
+    height: 260px;
+  }
+  div {
+    position:absolute;
+  }
+  body{
+    margin:0;
+    background:#5C8D8F;
+  }
+</style>
