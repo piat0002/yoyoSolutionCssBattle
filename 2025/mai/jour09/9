@@ -1,0 +1,47 @@
+<div class="cont">
+  <div class="double-barre"></div>
+  <div class="cercle"></div>
+  <div class="barre-vertical"></div>
+</div>
+
+<style>
+
+  .double-barre{
+    border:#FFFFFF solid;
+    border-width:20px 0;
+    height: 10px;
+    width:140px;
+  }
+  .cont *{
+    position:absolute;
+  }
+  .barre-vertical{
+    top:50px;
+    left:50px;
+    width:20px;
+    height:60px;
+    background:#FFFFFF;
+    border:#4F77FF solid;
+    border-width:0 10px 10px 10px;
+  }
+  .cont{
+    position:absolute;
+    top:60px;
+    left:130px;
+  }
+  .cercle{
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    top:60px;
+    left:10px;
+    background:#FFFFFF;
+  }
+  body{
+    background:#4F77FF;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+  }
+</style>
